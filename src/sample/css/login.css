@@ -1,0 +1,31 @@
+@font-face {
+    /*font-family: Baloo Bhai;*/
+    src: url('fonts/BalooBhai-regular.ttf');
+}
+
+.box {
+    -fx-min-height: 500;
+    -fx-min-width: 500;
+    -fx-padding: 10, 10, 10, 10;
+    -fx-background-color: purple;
+    -fx-alignment: CENTER;
+    -fx-font-family: 'Baloo Bhai';
+}
+
+.label-title {
+    -fx-text-fill: orange;
+    -fx-font-size: 50px;
+}
+
+.label-subtitle {
+    -fx-text-fill: orange;
+    -fx-font-size: 50px;
+}
+
+.button-knopStart {
+    -fx-background-color: orange;
+    -fx-font-size: 50px;
+    -fx-min-width: 1000px;
+    -fx-min-height: 200px;
+
+}
